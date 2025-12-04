@@ -15,4 +15,4 @@ if __name__ == '__main__':
     input = 'day_2/input.txt'
     t0 = time()
     print('answer =', solve(input)) # 19574776074
-    print('runtime =', time() - t0, 's')
+    print('runtime =', time() - t0, 's') # 0.5422699451446533 s

@@ -1,4 +1,4 @@
-input = 'day_1/input.txt'
+from time import time
 
 def solve(input):
     with open(input) as file:
@@ -17,4 +17,7 @@ def solve(input):
     return count
 
 if __name__ == '__main__':
-    print(solve(input)) # 6634
+    input = 'day_1/input.txt'
+    t0 = time()
+    print('answer =', solve(input)) # 6634
+    print('runtime =', time() - t0, 's') # 0.004994869232177734 s

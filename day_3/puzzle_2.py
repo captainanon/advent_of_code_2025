@@ -24,4 +24,4 @@ if __name__ == '__main__':
     input = 'day_3/input.txt'
     t0 = time()
     print('answer =', solve(input)) # 170418192256861
-    print('runtime =', time() - t0, 's')
+    print('runtime =', time() - t0, 's') # 0.004984617233276367 s
